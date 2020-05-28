@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
-import 'package:loginPage/data/databaseHelper.dart';
-import 'package:loginPage/modal/user.dart';
+import 'package:Notes/data/databaseHelper.dart';
+import 'package:Notes/modal/user.dart';
 
 import 'package:flutter/material.dart';
 

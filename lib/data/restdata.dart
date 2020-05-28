@@ -1,5 +1,5 @@
-import 'package:loginPage/modal/user.dart';
-import 'package:loginPage/utils/networkutil.dart';
+import 'package:Notes/modal/user.dart';
+import 'package:Notes/utils/networkutil.dart';
 import 'dart:async';
 
 

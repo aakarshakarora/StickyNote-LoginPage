@@ -1,6 +1,7 @@
 
-import 'package:loginPage/data/restdata.dart';
-import 'package:loginPage/modal/user.dart';
+import 'package:Notes/data/restdata.dart';
+import 'package:Notes/modal/user.dart';
+
 
 abstract class LoginPageContract {
   void onLoginSuccess(User user);

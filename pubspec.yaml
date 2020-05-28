@@ -1,5 +1,5 @@
-name: loginPage
-description: A new Flutter project LOGIN PAGE USING SQFLITE
+name: Notes
+description: Login Page + Sticky Note using Flutter +SQFLITE
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `pub publish`. This is preferred for private packages.
@@ -28,13 +28,22 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.3
-  sqflite: any 
+  sqflite: '>=0.8.5'
   path_provider: any
+  intl: "^0.15.6"
+  hexcolor: ^1.0.2
   io: ^0.3.4
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_launcher_icons: ^0.7.0
+
+
+flutter_icons:
+    image_path: "assets/StickyNote.png"
+    ios: true
+    android: true
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

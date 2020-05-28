@@ -1,5 +1,5 @@
 import 'dart:io';
-import 'package:loginPage/modal/user.dart';
+import 'package:Notes/modal/user.dart';
 import 'package:sqflite/sqflite.dart';
 import 'dart:async';
 import 'package:path/path.dart';
@@ -33,7 +33,7 @@ class DatabaseHelper {
 
   void _onCreate(Database db, int version) async {
     await db.execute(
-        "CREATE TABLE User(id INTEGER PRIMARY KEY, username TEXT not null , password TEXT not null )");
+        "CREATE TABLE User(id INTEGER , username TEXT not null PRIMARY KEY , password TEXT not null )");
     print("Table is created");
   }
 

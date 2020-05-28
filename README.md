@@ -1,6 +1,6 @@
-# loginPage
+# StickNotes
 
-A new Flutter project.
+Login Page + Sticky Note using Flutter +SQFLITE
 
 ## Getting Started
 
